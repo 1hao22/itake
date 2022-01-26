@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    
+    <script type="text/javascript" src="cal.js"></script>
+    <link rel="stylesheet" href="./css/style04.css">
+    <title>AI Recognition</title>
+</head>
+<body>
+
+     <!-- navbar -->
+    <a href="./ai2.html"><nav class="navbar_white">
+         <div class="aiback"></div>
+         <div class="title"id="label-container">AI Recognition</div>
+     </nav>
+    </a>
+
+     <!-- 底圖 -->
+    <div class="aiscan2"> 
+            <!-- text -->
+               <div class="text2" id="food">
+                  <h5>ian-tshiâng</h5>
+                  <p>Sausage</p>
+               </div>
+    </div>
+
+    <!-- 音檔 -->
+     <audio id="aivoice9">
+        <source src="media/sausage.mp3" type="audio/mp3">
+    </audio>
+    
+    <!-- 聲音js -->
+    <script>
+        var aivoice9 = document. getElementById("aivoice9") ;
+        var food = document. getElementById("food") ;
+        food.onclick = function(){
+            aivoice9.play();
+        }
+    </script>
+   
+   
+   
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="./css/style02.css">
+</head>
+
+<body>
+    <nav class="navbar">Cards</nav>
+    <a href="./cards_favorite.html">
+        <div class="back"></div>
+    </a>
+    <div class="whitebg">
+        <div class="cdinfo">
+            <div class="bigimg10"></div>
+            <div class="cardtaigi">kim-tsio</div>
+            <div class="cardeg">Banana</div>
+            <div class="redheart"></div>
+            <div class="tone19"></div>
+            <div class="tonetabs">
+                <div class="sound" id="bananasound"></div>
+                <a href="./card_favorite_banana2.html">
+                    <div class="mic"></div>
+                </a>
+                <a href="./card_favorite_banana_tones.html">
+                    <div class="taiwan"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="blackbg"></div>
+    <div class="picbg2" id="cardsbg2"></div>
+
+
+    <audio id="mySong18">
+        <source src="media/banana.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        var mySong18 = document.getElementById("mySong18");
+        var bananasound = document.getElementById("bananasound");
+        bananasound.onclick = function () {
+            mySong18.play();
+        }
+    </script>
+
+
+</body>
+
+</html>

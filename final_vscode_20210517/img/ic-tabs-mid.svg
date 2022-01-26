@@ -1,0 +1,26 @@
+<svg id="ic_tabs_mid" data-name="ic/tabs/mid" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4fb4a2;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle" class="cls-1" width="56" height="56" rx="23"/>
+  <g id="ic_sm_activity" data-name="ic/sm/activity" transform="translate(7 7)">
+    <rect id="ic_sm_box_background" data-name="ic/sm/box background" class="cls-2" width="42" height="42"/>
+    <g id="aicube" transform="translate(6.842 4.764)">
+      <path id="Path" class="cls-3" d="M13.131,23.332.044,15.728,0,0,13.086,7.6l.044,15.728Z" transform="translate(0 9.141)"/>
+      <path id="Path-2" data-name="Path" class="cls-3" d="M13.086,15.507,0,7.9,13.683,0,26.769,7.6l-13.683,7.9Z" transform="translate(0.752 0)"/>
+      <path id="Path-3" data-name="Path" class="cls-3" d="M13.683,0l.044,15.728L.044,23.631,0,7.9,13.683,0Z" transform="translate(14.589 8.842)"/>
+    </g>
+  </g>
+</svg>

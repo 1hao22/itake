@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="46" viewBox="0 0 170 46">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-158 -180) translate(16 166) translate(142 14)">
+                    <rect width="170" height="46" fill="#F27E20" fill-rule="nonzero" rx="19"/>
+                    <g fill="#FFF">
+                        <text font-family="SegoeUI-Bold, Segoe UI" font-size="20" font-weight="bold" transform="translate(10 4)">
+                            <tspan x="41" y="26">My favorite</tspan>
+                        </text>
+                        <g>
+                            <path d="M15.18 27.21c.22.235.528.369.85.37.303.001.594-.118.81-.33l11.8-11.8c3.29-3.324 3.29-8.676 0-12-1.598-1.601-3.768-2.5-6.03-2.5-2.262 0-4.432.899-6.03 2.5L16 4l-.62-.63c-1.589-1.597-3.747-2.497-6-2.5-2.256-.011-4.42.89-6 2.5-1.598 1.588-2.498 3.747-2.5 6-.011 2.256.89 4.42 2.5 6l11.8 11.84z" transform="translate(10 4) translate(3 5.5)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

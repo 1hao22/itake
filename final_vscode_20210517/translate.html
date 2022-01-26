@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style01.css">
+</head>
+<body>
+<div class="bgimg02">
+  <nav class="navbar02">Translate</nav>
+    <div class="homebg02">
+
+        <!-- 返回鍵 -->
+        <a href="./index.html"><div class="back"></div></a>
+
+        <!-- title -->
+        <p id=title class="title">Tap mic to start</p>
+ 
+       <div>
+
+            <!-- 英文字 -->
+            <h4 id=demo01 class="egg" style = "visibility:hidden">Egg</h4>
+            <h4 id=demo03 class="egg" style = "visibility:hidden">Banana</h4>
+            <h4 id=demo05 class="egg" style = "visibility:hidden">Rice dumpling</h4>
+
+            <!-- soundbtn -->
+            <div class="eggsoundbtn">
+            <div class="sound" id="transegg" style = "visibility:hidden"></div>
+            <div class="sound" id="transbanana" style = "visibility:hidden"></div>
+            <div class="sound" id="transricedumpling" style = "visibility:hidden"></div>
+            </div>
+
+            <!-- 羅馬字 -->
+            <h4 id=demo02 class="egg" style = "visibility:hidden">nn̄g</h4>
+            <h4 id=demo04 class="egg" style = "visibility:hidden">kim-tsio</h4>
+            <h4 id=demo06 class="egg" style = "visibility:hidden">bah-tsàng</h4>
+            <audio id="eggSong"><source src="media/egg.mp3" type="audio/mp3"></audio>
+            <audio id="banaSong"><source src="media/banana.mp3" type="audio/mp3"></audio>
+            <audio id="ricedumplingSong"><source src="media/zongzi.mp3" type="audio/mp3"></audio>
+
+        </div>
+
+       <!-- micbtn -->
+       <button onclick="myFunction()" class="micbtn"></button>
+
+     </div>
+</div>
+
+
+<script>
+// function myFunction() {
+//     document.getElementById("title").textContent = "Translate …"
+//     document.getElementById("demo01").style.visibility = "hidden";
+//     document.getElementById("demo02").style.visibility = "hidden";
+//     document.getElementById("transegg").style.visibility = "hidden";
+
+//   setTimeout(function()
+//   {  
+//     document.getElementById("demo01").style.color = "black";
+//     document.getElementById("demo01").style.visibility = "visible"; 
+//   }, 1500);
+
+//   setTimeout(function()
+//   { 
+//       document.getElementById("title").textContent = "Result"
+//     document.getElementById("demo02").style.color = "black";
+//     document.getElementById("demo02").style.visibility = "visible";
+//     document.getElementById("transegg").style.visibility = "visible";
+//   }, 2800);
+//   }
+
+
+// soundbtn
+//   var eggSong = document.getElementById("eggSong");
+//   var transegg = document.getElementById("transegg");
+//   transegg.onclick = function () {
+//             eggSong.play();
+//         }
+
+var count = 0;
+function myFunction() {
+    document.getElementById("title").textContent = "Translate …"
+    document.getElementById("demo01").style.visibility = "hidden";
+    document.getElementById("demo02").style.visibility = "hidden";
+    document.getElementById("demo03").style.visibility = "hidden";
+    document.getElementById("demo04").style.visibility = "hidden";
+    document.getElementById("demo05").style.visibility = "hidden";
+    document.getElementById("demo06").style.visibility = "hidden";
+    document.getElementById("transegg").style.visibility = "hidden";
+    document.getElementById("transbanana").style.visibility = "hidden";
+    document.getElementById("transricedumpling").style.visibility = "hidden";
+
+
+
+if(count % 3 ==0)
+{
+
+  setTimeout(function()
+  {  
+    document.getElementById("demo01").style.color = "black";
+    document.getElementById("demo01").style.visibility = "visible"; 
+  }, 1500);
+
+  setTimeout(function()
+  { 
+      document.getElementById("title").textContent = "Result"
+    document.getElementById("demo02").style.color = "black";
+    document.getElementById("demo02").style.visibility = "visible";
+    document.getElementById("transegg").style.visibility = "visible";
+  }, 2500);
+  }
+
+  else if(count % 3 ==1)
+  {
+      setTimeout(function()
+  {  
+    document.getElementById("demo03").style.color = "black";
+    document.getElementById("demo03").style.visibility = "visible"; 
+  }, 1500);
+
+  setTimeout(function()
+  { 
+      document.getElementById("title").textContent = "Result"
+    document.getElementById("demo04").style.color = "black";
+    document.getElementById("demo04").style.visibility = "visible";
+    document.getElementById("transbanana").style.visibility = "visible";
+  }, 2500);
+  }
+
+  else if(count % 3 ==2)
+  {
+      setTimeout(function()
+  {  
+    document.getElementById("demo05").style.color = "black";
+    document.getElementById("demo05").style.visibility = "visible"; 
+  }, 1650);
+
+  setTimeout(function()
+  { 
+      document.getElementById("title").textContent = "Result"
+    document.getElementById("demo06").style.color = "black";
+    document.getElementById("demo06").style.visibility = "visible";
+    document.getElementById("transricedumpling").style.visibility = "visible";
+  }, 2650);
+  }
+
+count++;
+if(count == 3)
+count = 0;
+
+  }
+
+// soundbtn
+  var eggSong = document.getElementById("eggSong");
+  var transegg = document.getElementById("transegg");
+  
+var banaSong = document.getElementById("banaSong");
+var transbanana = document.getElementById("transbanana");
+
+var ricedumplingSong = document.getElementById("ricedumplingSong");
+var transricedumpling = document.getElementById("transricedumpling");
+
+  transegg.onclick = function () {
+            eggSong.play();
+        }
+
+  transbanana.onclick = function () {
+            banaSong.play();
+        }
+
+ transricedumpling.onclick = function () {
+            ricedumplingSong.play();
+        }
+
+
+</script>
+
+
+</body>
+</html>

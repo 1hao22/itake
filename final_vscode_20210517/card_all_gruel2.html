@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="./css/style02.css">
+</head>
+
+<body>
+    <nav class="navbar">Cards</nav>
+    <a href="./cards_all.html">
+        <div class="back"></div>
+    </a>
+    <div class="whitebg">
+        <div class="cdinfo">
+            <div class="bigimg6"></div>
+            <div class="cardtaigi">muê</div>
+            <div class="cardeg">Gruel</div>
+            <div class="redheart"></div>
+            <div class="tone12"></div>
+            <div class="tonetabs">
+                <div class="sound" id="gruelsound"></div>
+                <a href="./card_all_gruel2.html">
+                    <div class="mic"></div>
+                </a>
+                <a href="./card_all_gruel_tones.html">
+                    <div class="taiwan"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="blackbg"></div>
+    <div class="picbg2" id="cardsbg2"></div>
+
+    <audio id="mySong10">
+        <source src="media/gruel2.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        var mySong10 = document.getElementById("mySong10");
+        var gruelsound = document.getElementById("gruelsound");
+        gruelsound.onclick = function () {
+            mySong10.play();
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="./css/style02.css">
+</head>
+
+<body>
+    <nav class="navbar">Cards</nav>
+    <a href="./cards_all.html">
+        <div class="back"></div>
+    </a>
+    <div class="whitebg">
+        <div class="cdinfo">
+            <div class="bigimg8"></div>
+            <div class="cardtaigi">bah-tsàng</div>
+            <div class="cardeg">Rice dumpling</div>
+            <div class="redheart"></div>
+            <div class="tone16"></div>
+            <div class="tonetabs">
+                <div class="sound" id="ricedumplingsound"></div>
+                <a href="./card_all_riceDumpling.html">
+                    <div class="mic"></div>
+                </a>
+                <div class="taiwan_d"></div>
+            </div>
+        </div>
+    </div>
+    <div class="blackbg"></div>
+    <div class="picbg2" id="cardsbg2"></div>
+
+
+    <audio id="mySong15">
+        <source src="media/zongzi.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        var mySong15 = document.getElementById("mySong15");
+        var ricedumplingsound = document.getElementById("ricedumplingsound");
+        ricedumplingsound.onclick = function () {
+            mySong15.play();
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="./css/style02.css">
+</head>
+
+<body>
+    <nav class="navbar">Cards</nav>
+    <a href="./card_favorite_sausage.html">
+        <div class="back"></div>
+    </a>
+    <div class="whitebg">
+        <div class="toneinfo">
+            <div class="taiwan">
+                <div class="newtaipei" id="newtaipei"></div>
+                <div class="taipei" id="taipei"></div>
+                <div class="keelung" id="keelung"></div>
+                <div class="taoyuan" id="taoyuan"></div>
+                <div class="hsinchu4" id="hsinchu4"></div>
+                <div class="hsinchu" id="hsinchu"></div>
+                <div class="miaoli" id="miaoli"></div>
+                <div class="taichung" id="taichung"></div>
+                <div class="changhua" id="changhua"></div>
+                <div class="nantou" id="nantou"></div>
+                <div class="yunlin" id="yunlin"></div>
+                <div class="chiayi4" id="chiayi4"></div>
+                <div class="chiayi" id="chiayi"></div>
+                <div class="tainan" id="tainan"></div>
+                <div class="kaohsiung" id="kaohsiung"></div>
+                <div class="pingtung" id="pingtung"></div>
+                <div class="yilan" id="yilan"></div>
+                <div class="hualien" id="hualien"></div>
+                <div class="taitung" id="taitung"></div>
+            </div>
+            <div class="tonebg">
+                <div class="taigi" id="tonetaigi" value="變更文字" onclick="ChangeString()">ian-tshiang</div>
+                <div class="toneenglish">Sausage</div>
+            </div>
+        </div>
+    </div>
+    <div class="blackbg"></div>
+    <div class="picbg2" id="cardsbg2"></div>
+
+
+
+    <audio id="mySong1">
+        <source src="media/sausage1.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="mySong2">
+        <source src="media/sausage2.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="mySong3">
+        <source src="media/sausage3.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="mySong4">
+        <source src="media/sausage4.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        var mySong1 = document.getElementById("mySong1");
+        var yilan = document.getElementById("yilan");
+        yilan.onclick = function () {
+            mySong1.play();
+            document.getElementById("tonetaigi").innerHTML = 'sio-tshiân';
+        }
+        // ========================================//
+        var mySong2 = document.getElementById("mySong2");
+        var north = document.getElementById("newtaipei");
+        newtaipei.onclick = function () {
+            mySong2.play();
+            document.getElementById("tonetaigi").innerHTML = 'kuàn-tshiâng';
+        }
+
+        var mySong2 = document.getElementById("mySong2");
+        var north = document.getElementById("taipei");
+        taipei.onclick = function () {
+            mySong2.play();
+            document.getElementById("tonetaigi").innerHTML = 'kuàn-tshiâng';
+        }
+
+        var mySong2 = document.getElementById("mySong2");
+        var north = document.getElementById("keelung");
+        keelung.onclick = function () {
+            mySong2.play();
+            document.getElementById("tonetaigi").innerHTML = 'kuàn-tshiâng';
+        }
+        var mySong2 = document.getElementById("mySong2");
+        var north = document.getElementById("taoyuan");
+        taoyuan.onclick = function () {
+            mySong2.play();
+            document.getElementById("tonetaigi").innerHTML = 'kuàn-tshiâng';
+        }
+        var mySong2 = document.getElementById("mySong2");
+        var north = document.getElementById("hsinchu4");
+        hsinchu4.onclick = function () {
+            mySong2.play();
+            document.getElementById("tonetaigi").innerHTML = 'kuàn-tshiâng';
+        }
+        var mySong2 = document.getElementById("mySong2");
+        var north = document.getElementById("hsinchu");
+        hsinchu.onclick = function () {
+            mySong2.play();
+            document.getElementById("tonetaigi").innerHTML = 'kuàn-tshiâng';
+        }
+        // ========================================//
+        var mySong3 = document.getElementById("mySong3");
+        var south = document.getElementById("chiayi");
+        chiayi.onclick = function () {
+            mySong3.play();
+            document.getElementById("tonetaigi").innerHTML = 'ian-tshiân';
+        }
+        var mySong3 = document.getElementById("mySong3");
+        var south = document.getElementById("chiayi4");
+        chiayi4.onclick = function () {
+            mySong3.play();
+            document.getElementById("tonetaigi").innerHTML = 'ian-tshiân';
+        }
+        var mySong3 = document.getElementById("mySong3");
+        var south = document.getElementById("tainan");
+        tainan.onclick = function () {
+            mySong3.play();
+            document.getElementById("tonetaigi").innerHTML = 'ian-tshiân';
+        }
+        var mySong3 = document.getElementById("mySong3");
+        var south = document.getElementById("kaohsiung");
+        kaohsiung.onclick = function () {
+            mySong3.play();
+            document.getElementById("tonetaigi").innerHTML = 'ian-tshiân';
+        }
+        var mySong3 = document.getElementById("mySong3");
+        var south = document.getElementById("pingtung");
+        pingtung.onclick = function () {
+            mySong3.play();
+            document.getElementById("tonetaigi").innerHTML = 'ian-tshiân';
+        }
+        // ========================================//
+        var mySong4 = document.getElementById("mySong4");
+        var south = document.getElementById("miaoli");
+        miaoli.onclick = function () {
+            mySong4.play();
+            document.getElementById("tonetaigi").innerHTML = 'ian-tshiân';
+        }
+        var mySong4 = document.getElementById("mySong4");
+        var south = document.getElementById("taichung");
+        taichung.onclick = function () {
+            mySong4.play();
+            document.getElementById("tonetaigi").innerHTML = 'ian-tshiân';
+        }
+        var mySong4 = document.getElementById("mySong4");
+        var south = document.getElementById("changhua");
+        changhua.onclick = function () {
+            mySong4.play();
+            document.getElementById("tonetaigi").innerHTML = 'ian-tshiân';
+        }
+        var mySong4 = document.getElementById("mySong4");
+        var south = document.getElementById("nantou");
+        nantou.onclick = function () {
+            mySong4.play();
+            document.getElementById("tonetaigi").innerHTML = 'ian-tshiân';
+        }
+        var mySong4 = document.getElementById("mySong4");
+        var south = document.getElementById("yunlin");
+        yunlin.onclick = function () {
+            mySong4.play();
+            document.getElementById("tonetaigi").innerHTML = 'ian-tshiân';
+        }
+        var mySong4 = document.getElementById("mySong4");
+        var east = document.getElementById("hualien");
+        hualien.onclick = function () {
+            mySong4.play();
+            document.getElementById("tonetaigi").innerHTML = 'ian-tshiang';
+        }
+        var mySong4 = document.getElementById("mySong4");
+        var east = document.getElementById("taitung");
+        taitung.onclick = function () {
+            mySong4.play();
+            document.getElementById("tonetaigi").innerHTML = 'ian-tshiang';
+        }
+    </script>
+
+
+
+</body>
+
+</html>

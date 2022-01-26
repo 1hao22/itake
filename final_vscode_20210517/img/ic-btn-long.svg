@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="296" height="50" viewBox="0 0 296 50">
+    <defs>
+        <linearGradient id="83m6i6gkja" x1="60.032%" x2="60.032%" y1="-20.477%" y2="128.307%">
+            <stop offset="0%" stop-color="#F9EF81"/>
+            <stop offset="20.728%" stop-color="#94CC95"/>
+            <stop offset="46.721%" stop-color="#4FB4A2"/>
+            <stop offset="67.622%" stop-color="#4D9FAF"/>
+            <stop offset="100%" stop-color="#4980C1"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-32 -656) translate(32 656)">
+                <rect width="296" height="50" fill="url(#83m6i6gkja)" rx="20"/>
+                <text fill="#FFF" font-family="SegoeUI, Segoe UI" font-size="20">
+                    <tspan x="97.133" y="33">Reservation</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

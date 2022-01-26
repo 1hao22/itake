@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="./css/style02.css">
+</head>
+
+<body>
+    <nav class="navbar">Cards</nav>
+    <a href="./cards_all.html">
+        <div class="back"></div>
+    </a>
+    <div class="whitebg">
+        <div class="cdinfo">
+            <div class="bigimg2"></div>
+            <div class="cardtaigi">bí-hueh</div>
+            <div class="cardeg">Blood pudding</div>
+            <div class="redheart"></div>
+            <div class="tone4"></div>
+            <div class="tonetabs">
+                <div class="sound" id="bloodpuddingsound"></div>
+                <a href="./card_all_bloodPudding.html">
+                    <div class="mic"></div>
+                </a>
+                <div class="taiwan_d"></div>
+            </div>
+        </div>
+    </div>
+    <div class="blackbg"></div>
+    <div class="picbg2" id="cardsbg2"></div>
+
+
+    <audio id="mySong5">
+        <source src="media/black pudding.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        var mySong5 = document.getElementById("mySong5");
+        var bloodpuddingsound = document.getElementById("bloodpuddingsound");
+        bloodpuddingsound.onclick = function () {
+            mySong5.play();
+        }
+    </script>
+
+
+</body>
+
+</html>

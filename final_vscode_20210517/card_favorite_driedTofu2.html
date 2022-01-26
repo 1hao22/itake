@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="./css/style02.css">
+</head>
+
+<body>
+    <nav class="navbar">Cards</nav>
+    <a href="./cards_favorite.html">
+        <div class="back"></div>
+    </a>
+    <div class="whitebg">
+        <div class="cdinfo">
+            <div class="bigimg3"></div>
+            <div class="cardtaigi">tāu-kuann</div>
+            <div class="cardeg">Dried tofu</div>
+            <div class="redheart"></div>
+            <div class="tone6"></div>
+            <div class="tonetabs">
+                <div class="sound" id="driedtofusound"></div>
+                <a href="./card_favorite_driedTofu.html">
+                    <div class="mic"></div>
+                </a>
+                <div class="taiwan_d"></div>
+            </div>
+        </div>
+    </div>
+    <div class="blackbg"></div>
+    <div class="picbg2" id="cardsbg2"></div>
+
+
+    <audio id="mySong6">
+        <source src="media/driedtofu.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        var mySong6 = document.getElementById("mySong6");
+        var driedtofusound = document.getElementById("driedtofusound");
+        driedtofusound.onclick = function () {
+            mySong6.play();
+        }
+    </script>
+
+
+</body>
+
+</html>

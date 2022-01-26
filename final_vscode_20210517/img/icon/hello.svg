@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="296px" height="82px" viewBox="0 0 296 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <path d="M37.4417278,9.42868656e-17 L258.558272,2.09354522e-15 C268.52605,-1.74126487e-15 274.414716,1.48520978 279.629531,4.27412326 C284.844346,7.06303674 288.936963,11.1556539 291.725877,16.3704687 C294.51479,21.5852836 296,27.4739504 296,37.4417278 L296,44.5582722 C296,54.5260496 294.51479,60.4147164 291.725877,65.6295313 C288.936963,70.8443461 284.844346,74.9369633 279.629531,77.7258767 C274.414716,80.5147902 268.52605,82 258.558272,82 L37.4417278,82 C27.4739504,82 21.5852836,80.5147902 16.3704687,77.7258767 C11.1556539,74.9369633 7.06303674,70.8443461 4.27412326,65.6295313 C1.48520978,60.4147164 1.65440793e-15,54.5260496 -1.989116e-15,44.5582722 L1.76033549e-15,37.4417278 C-1.46412426e-15,27.4739504 1.48520978,21.5852836 4.27412326,16.3704687 C7.06303674,11.1556539 11.1556539,7.06303674 16.3704687,4.27412326 C21.5852836,1.48520978 27.4739504,-7.84212375e-17 37.4417278,9.42868656e-17 Z" id="path-1"></path>
+    </defs>
+    <g id="-page1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-32.000000, -388.000000)">
+            <g id="Group" transform="translate(32.000000, 388.000000)">
+                <g id="hello封面-1-copy" transform="translate(0.000000, -0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                </g>
+                <text id="sī-leh-Hello-?-Copy-2" opacity="0.795197" font-family="SegoeUI-Bold, Segoe UI" font-size="24" font-weight="bold" fill="#000000">
+                    <tspan x="16" y="43">s</tspan>
+                    <tspan x="26.5585938" y="43" font-family="LucidaGrande-Bold, Lucida Grande">ī</tspan>
+                    <tspan x="34.3632812" y="43"> leh Hello ?</tspan>
+                </text>
+                <text id="Excuse-me？-Copy-2" opacity="0.795197" font-family="SegoeUI, Segoe UI" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="16" y="64">Excuse me</tspan>
+                    <tspan x="80.3740234" y="64" font-family="PingFangTC-Regular, PingFang TC">？</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

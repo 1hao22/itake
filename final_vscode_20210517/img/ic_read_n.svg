@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46" viewBox="0 0 46 46">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-ic_read_n);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #dadada;
+      }
+    </style>
+    <clipPath id="clip-ic_read_n">
+      <rect width="46" height="46"/>
+    </clipPath>
+  </defs>
+  <g id="ic_read_n" class="cls-1">
+    <g id="ic_tabs_short_n" data-name="ic/tabs/short_n">
+      <rect id="Rectangle" class="cls-2" width="46" height="46" rx="19"/>
+      <g id="ic_sm_save" data-name="ic/sm/save" transform="translate(6 6)">
+        <rect id="ic_sm_eye_background" data-name="ic/sm/eye background" class="cls-3" width="34" height="34"/>
+        <g id="read" transform="translate(3.765 8.84)">
+          <path id="Combined_Shape" data-name="Combined Shape" class="cls-4" d="M13.236,16.32a14.323,14.323,0,0,1-7.537-2.4A25.916,25.916,0,0,1,.542,9.611a2.211,2.211,0,0,1,0-2.9A25.9,25.9,0,0,1,5.7,2.4,14.324,14.324,0,0,1,13.236,0a14.322,14.322,0,0,1,7.536,2.4,25.9,25.9,0,0,1,5.156,4.307,2.211,2.211,0,0,1,0,2.9C22.981,12.672,18.387,16.32,13.236,16.32Zm0-14.143A5.984,5.984,0,1,0,17.467,3.93,5.945,5.945,0,0,0,13.235,2.177Z" transform="translate(0 0)"/>
+          <path id="Path" class="cls-4" d="M4.533,0H4.171a.471.471,0,0,0-.363.181.817.817,0,0,0-.091.453,2.6,2.6,0,0,1-.363,2.448,2.17,2.17,0,0,1-1.9.907,2.647,2.647,0,0,1-.816-.181c-.181-.091-.272,0-.453.091A.362.362,0,0,0,0,4.261v.091A4.353,4.353,0,0,0,4.352,8.7,4.413,4.413,0,0,0,8.7,4.352,4.045,4.045,0,0,0,4.533,0Z" transform="translate(8.702 3.808)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

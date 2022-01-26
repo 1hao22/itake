@@ -1,0 +1,1095 @@
+* {
+    font-family: 'Segoe UI';
+    text-decoration: none;
+}
+
+body {
+    width: 360px;
+    height: 738px;
+    overflow: hidden;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    width: 360px;
+    height: 48px;
+    /* margin-top: 5px; */
+    padding-top: 7px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    z-index: 100 !important;
+    line-height: 48px;
+}
+
+.back {
+    width: 38px;
+    height: 54px;
+    background-image: url(../img/icon/back.svg);
+    position: absolute;
+    top: 176px;
+    left: 32px;
+    z-index: 3;
+}
+
+.whitebg {
+    width: 328px;
+    height: 556px;
+    background-image: url(../img/icon/whitebg.svg);
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    z-index: 2;
+}
+
+.blackbg {
+    width: 360px;
+    height: 738px;
+    margin-top: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 2%, rgba(0, 0, 0, 0.42) 20%, #000000 29%, #000000);
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+
+.picbg {
+    width: 360px;
+    height: 300px;
+    margin-top: 0;
+    background-image: url(../img/lantern2.jpg);
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+}
+
+.picbg2 {
+    width: 360px;
+    height: 300px;
+    margin-top: 0;
+    background-image: url(../img/flower_window.jpg);
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+}
+
+.tabs {
+    width: 232px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 16px 0 80px;
+}
+
+#alllg {
+    width: 170px;
+    height: 46px;
+    background-image: url(../img/icon/tabs-card-long.svg);
+}
+
+#favoritesm {
+    width: 46px;
+    height: 46px;
+    background-image: url(../img/icon/tabs-heart-short.svg);
+}
+
+#allsm {
+    width: 46px;
+    height: 46px;
+    background-image: url(../img/icon/tabs-card-short.svg);
+}
+
+#favoritelg {
+    width: 170px;
+    height: 46px;
+    background-image: url(../img/icon/tabs-heart-long.svg);
+}
+
+.cardinfo {
+    width: 328px;
+    height: 454px;
+    overflow: scroll;
+    margin-top: 28px;
+    padding: 0 0 4px 16px;
+}
+
+.cardinfo::-webkit-scrollbar {
+    display: none;
+}
+
+.cdinfo1,
+.cdinfo2,
+.cdinfo3,
+.cdinfo4,
+.cdinfo5,
+.cdinfo6,
+.cdinfo7,
+.cdinfo8,
+.cdinfo9,
+.cdinfo10 {
+    width: 312px;
+    height: 82px;
+    /* border: red 1px solid; */
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgname {
+    display: flex;
+}
+
+.infopic1 {
+    width: 72px;
+    height: 72px;
+    background-image: url(../img/sausage.png);
+    background-size: cover;
+}
+
+.infopic2 {
+    width: 72px;
+    height: 72px;
+    background-image: url(../img/bloodpudding.png);
+    background-size: cover;
+}
+
+.infopic3 {
+    width: 72px;
+    height: 72px;
+    background-image: url(../img/tofu.png);
+    background-size: cover;
+}
+
+.infopic4 {
+    width: 72px;
+    height: 72px;
+    background-image: url(../img/ricesausage.png);
+    background-size: cover;
+}
+
+.infopic5 {
+    width: 72px;
+    height: 72px;
+    background-image: url(../img/tempura.png);
+    background-size: cover;
+}
+
+.infopic6 {
+    width: 72px;
+    height: 72px;
+    background-image: url(../img/gruel.png);
+    background-size: cover;
+}
+
+.infopic7 {
+    width: 72px;
+    height: 72px;
+    background-image: url(../img/porkrice.png);
+    background-size: cover;
+}
+
+.infopic8 {
+    width: 72px;
+    height: 72px;
+    background-image: url(../img/ricedumpling.png);
+    background-size: cover;
+}
+
+.infopic9 {
+    width: 72px;
+    height: 72px;
+    background-image: url(../img/egg.png);
+    background-size: cover;
+}
+
+.infopic10 {
+    width: 72px;
+    height: 72px;
+    background-image: url(../img/banana.png);
+    background-size: cover;
+}
+
+.nameword {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.taigi {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.eg {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.cdinfo1 .line,
+.cdinfo2 .line,
+.cdinfo3 .line,
+.cdinfo4 .line,
+.cdinfo5 .line,
+.cdinfo6 .line,
+.cdinfo7 .line,
+.cdinfo8 .line,
+.cdinfo9 .line,
+.cdinfo10 .line {
+    width: 312px;
+    height: 1px;
+    background-image: url(../img/icon/btmline.svg);
+    position: relative;
+    bottom: 0;
+}
+
+.cdinfo {
+    width: 296px;
+    height: 488px;
+    margin: 52px 16px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bigimg1 {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/sausage.png);
+    background-size: cover;
+    margin-bottom: 12px;
+}
+
+.bigimg2 {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/bloodpudding.png);
+    background-size: cover;
+    margin-bottom: 12px;
+}
+
+.bigimg3 {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/tofu.png);
+    background-size: cover;
+    margin-bottom: 12px;
+}
+
+.bigimg4 {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/ricesausage.png);
+    background-size: cover;
+    margin-bottom: 12px;
+}
+
+.bigimg5 {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/tempura.png);
+    background-size: cover;
+    margin-bottom: 12px;
+}
+
+.bigimg6 {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/gruel.png);
+    background-size: cover;
+    margin-bottom: 12px;
+}
+
+.bigimg7 {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/porkrice.png);
+    background-size: cover;
+    margin-bottom: 12px;
+}
+
+.bigimg8 {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/ricedumpling.png);
+    background-size: cover;
+    margin-bottom: 12px;
+}
+
+.bigimg9 {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/egg.png);
+    background-size: cover;
+    margin-bottom: 12px;
+}
+
+.bigimg10 {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/banana.png);
+    background-size: cover;
+    margin-bottom: 12px;
+}
+
+.cardtaigi {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 6px;
+}
+
+.cardeg {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+}
+
+.tone1 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/tone1.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tone2 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/tone2.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tone3 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/blood_Tone.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tone4 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/blood_MyTone.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tone5 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/tofu_Tone.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tone6 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/tofu_MyTone.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tone7 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/ricegg_Tone.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tone8 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/ricegg_MyTone.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tone9 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/fishPasteBar_Tone.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tone10 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/fishPasteBar_MyTone.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tone11 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/gruel_Tone.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tone12 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/gruel_MyTone.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tone13 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/porkRice_Tone.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tone14 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/porkRice_MyTone.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tone15 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/riceDumpling_Tone.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tone16 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/riceDumpling_MyTone.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tone17 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/egg_Tone.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tone18 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/egg_MyTone.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tone19 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/banana_Tone.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+.tone20 {
+    width: 296px;
+    height: 170px;
+    background-image: url(../img/icon/banana_MyTone.svg);
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+
+.tonetabs {
+    width: 244px;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 42px;
+}
+
+.tonetabs .sound {
+    width: 56px;
+    height: 56px;
+    background-image: url(../img/icon/tabs-sound-mid.svg);
+}
+
+.tonetabs .mic {
+    width: 78px;
+    height: 78px;
+    background-image: url(../img/icon/tabs-mic-big.svg);
+    z-index: 2;
+}
+
+.tonetabs .taiwan {
+    width: 56px;
+    height: 56px;
+    background-image: url(../img/icon/tabs-taiwan-mid.svg);
+}
+
+.tonetabs .taiwan_d {
+    width: 56px;
+    height: 56px;
+    background-image: url(../img/icon/tabs-taiwan-mid_d.svg);
+}
+
+.redheart {
+    width: 38px;
+    height: 38px;
+    background-image: url(../img/icon/redheart.svg);
+    position: absolute;
+    top: 208px;
+    left: 259px;
+}
+
+/*==================== card_sausage_tones ====================*/
+.toneinfo {
+    width: 100%;
+    height: 436px;
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0 40px 0;
+}
+
+.taiwan .taipei {
+    width: 15.4px;
+    height: 21.2px;
+    background-image: url(../img/icon/Taipei.svg);
+    background-size: cover;
+    position: absolute;
+    top: 90.8px;
+    left: 200.8px;
+}
+
+.taiwan .taipei:hover {
+    width: 15.4px;
+    height: 21.2px;
+    background-image: url(../img/icon/Taipei_f.svg);
+    background-size: cover;
+    position: absolute;
+    top: 90.8px;
+    left: 200.8px;
+}
+
+
+.taiwan .newtaipei {
+    width: 63.7px;
+    height: 56.5px;
+    background-image: url(../img/icon/NewTaipei.svg);
+    background-size: cover;
+    position: absolute;
+    top: 80.4px;
+    left: 186.3px;
+}
+
+.taiwan .newtaipei:hover {
+    width: 63.7px;
+    height: 56.5px;
+    background-image: url(../img/icon/NewTaipei_f.svg);
+    background-size: cover;
+    position: absolute;
+    top: 80.4px;
+    left: 186.3px;
+}
+
+.taiwan .keelung {
+    width: 13.6px;
+    height: 11.5px;
+    background-image: url(../img/icon/Keelung.svg);
+    background-size: cover;
+    position: absolute;
+    top: 93.2px;
+    left: 218.1px;
+}
+
+.taiwan .keelung:hover {
+    width: 13.6px;
+    height: 11.5px;
+    background-image: url(../img/icon/Keelung_f.svg);
+    background-size: cover;
+    position: absolute;
+    top: 93.2px;
+    left: 218.1px;
+}
+
+.taiwan .taoyuan {
+    width: 42.6px;
+    height: 46.8px;
+    background-image: url(../img/icon/Taoyuan.svg);
+    background-size: cover;
+    position: absolute;
+    top: 99.4px;
+    left: 157.1px;
+}
+
+.taiwan .taoyuan:hover {
+    width: 42.6px;
+    height: 46.8px;
+    background-image: url(../img/icon/Taoyuan_f.svg);
+    background-size: cover;
+    position: absolute;
+    top: 99.4px;
+    left: 157.1px;
+}
+
+.taiwan .hsinchu {
+    width: 46.7px;
+    height: 46px;
+    background-image: url(../img/icon/Hsinchu.svg);
+    background-size: cover;
+    position: absolute;
+    top: 116.6px;
+    left: 149.9px;
+}
+
+.taiwan .hsinchu:hover {
+    width: 46.7px;
+    height: 46px;
+    background-image: url(../img/icon/Hsinchu_f.svg);
+    background-size: cover;
+    position: absolute;
+    top: 116.6px;
+    left: 149.9px;
+}
+
+.taiwan .hsinchu4 {
+    width: 10.2px;
+    height: 10.5px;
+    background-image: url(../img/icon/Hsinchu4.svg);
+    background-size: cover;
+    position: absolute;
+    top: 125.2px;
+    left: 147.4px;
+}
+
+.taiwan .hsinchu4:hover {
+    width: 10.2px;
+    height: 10.5px;
+    background-image: url(../img/icon/Hsinchu4_f.svg);
+    background-size: cover;
+    position: absolute;
+    top: 125.2px;
+    left: 147.4px;
+}
+
+.taiwan .miaoli {
+    width: 58px;
+    height: 37.4px;
+    background-image: url(../img/icon/Miaoli.svg);
+    background-size: cover;
+    position: absolute;
+    top: 137.4px;
+    left: 124.1px;
+}
+
+.taiwan .miaoli:hover {
+    width: 58px;
+    height: 37.4px;
+    background-image: url(../img/icon/Miaoli_f.svg);
+    background-size: cover;
+    position: absolute;
+    top: 137.4px;
+    left: 124.1px;
+}
+
+.taiwan .taichung {
+    width: 85.9px;
+    height: 40.4px;
+    background-image: url(../img/icon/Taichung.svg);
+    background-size: cover;
+    position: absolute;
+    top: 163.1px;
+    left: 114.7px;
+}
+
+.taiwan .taichung:hover {
+    width: 85.9px;
+    height: 40.4px;
+    background-image: url(../img/icon/Taichung_f.svg);
+    background-size: cover;
+    position: absolute;
+    top: 163.1px;
+    left: 114.7px;
+}
+
+.taiwan .changhua {
+    width: 38.6px;
+    height: 37px;
+    background-image: url(../img/icon/Changhua.svg);
+    background-size: cover;
+    position: absolute;
+    top: 187.5px;
+    left: 92.8px;
+}
+
+.taiwan .changhua:hover {
+    width: 38.6px;
+    height: 37px;
+    background-image: url(../img/icon/Changhua_f.svg);
+    background-size: cover;
+    position: absolute;
+    top: 187.5px;
+    left: 92.8px;
+}
+
+.taiwan .nantou {
+    width: 66.1px;
+    height: 69.4px;
+    background-image: url(../img/icon/Nantou.svg);
+    background-size: cover;
+    position: absolute;
+    top: 183.3px;
+    left: 125.4px;
+}
+
+.taiwan .nantou:hover {
+    width: 66.1px;
+    height: 69.4px;
+    background-image: url(../img/icon/Nantou_f.svg);
+    background-size: cover;
+    position: absolute;
+    top: 183.3px;
+    left: 125.4px;
+}
+
+.taiwan .yunlin {
+    width: 57px;
+    height: 28.8px;
+    background-image: url(../img/icon/Yunlin.svg);
+    background-size: cover;
+    position: absolute;
+    top: 223.7px;
+    left: 81.3px;
+}
+
+.taiwan .yunlin:hover {
+    width: 57px;
+    height: 28.8px;
+    background-image: url(../img/icon/Yunlin_f.svg);
+    background-size: cover;
+    position: absolute;
+    top: 223.7px;
+    left: 81.3px;
+}
+
+.taiwan .chiayi {
+    width: 74px;
+    height: 39.2px;
+    background-image: url(../img/icon/Chiayi.svg);
+    background-size: cover;
+    position: absolute;
+    top: 239.5px;
+    left: 82.4px;
+}
+
+.taiwan .chiayi:hover {
+    width: 74px;
+    height: 39.2px;
+    background-image: url(../img/icon/Chiayi_f.svg);
+    background-size: cover;
+    position: absolute;
+    top: 239.5px;
+    left: 82.4px;
+}
+
+.taiwan .chiayi4 {
+    width: 10.1px;
+    height: 6px;
+    background-image: url(../img/icon/Chiayi4.svg);
+    background-size: cover;
+    position: absolute;
+    top: 250.9px;
+    left: 111.6px;
+}
+
+.taiwan .chiayi4:hover {
+    width: 10.1px;
+    height: 6px;
+    background-image: url(../img/icon/Chiayi4_f.svg);
+    background-size: cover;
+    position: absolute;
+    top: 250.9px;
+    left: 111.6px;
+}
+
+.taiwan .tainan {
+    width: 54.3px;
+    height: 47.7px;
+    background-image: url(../img/icon/Tainan.svg);
+    background-size: cover;
+    position: absolute;
+    top: 261.6px;
+    left: 78.3px;
+}
+
+.taiwan .tainan:hover {
+    width: 54.3px;
+    height: 47.7px;
+    background-image: url(../img/icon/Tainan_f.svg);
+    background-size: cover;
+    position: absolute;
+    top: 261.6px;
+    left: 78.3px;
+}
+
+.taiwan .kaohsiung {
+    width: 77.6px;
+    height: 94.4px;
+    background-image: url(../img/icon/Kaohsiung.svg);
+    background-size: cover;
+    position: absolute;
+    top: 254.6px;
+    left: 92.6px;
+}
+
+.taiwan .kaohsiung:hover {
+    width: 77.6px;
+    height: 94.4px;
+    background-image: url(../img/icon/Kaohsiung_f.svg);
+    background-size: cover;
+    position: absolute;
+    top: 254.6px;
+    left: 92.6px;
+}
+
+.taiwan .pingtung {
+    width: 39.5px;
+    height: 90.8px;
+    background-image: url(../img/icon/Pingtung.svg);
+    background-size: cover;
+    position: absolute;
+    top: 309.3px;
+    left: 117.5px;
+}
+
+.taiwan .pingtung:hover {
+    width: 39.5px;
+    height: 90.8px;
+    background-image: url(../img/icon/Pingtung_f.svg);
+    background-size: cover;
+    position: absolute;
+    top: 309.3px;
+    left: 117.5px;
+}
+
+.taiwan .yilan {
+    width: 52.5px;
+    height: 59.5px;
+    background-image: url(../img/icon/Yilan.svg);
+    background-size: cover;
+    position: absolute;
+    top: 110.4px;
+    left: 190.6px;
+}
+
+.taiwan .yilan:hover {
+    width: 52.5px;
+    height: 59.5px;
+    background-image: url(../img/icon/Yilan_f.svg);
+    background-size: cover;
+    position: absolute;
+    top: 110.4px;
+    left: 190.6px;
+}
+
+.taiwan .hualien {
+    width: 66.3px;
+    height: 115.5px;
+    background-image: url(../img/icon/Hualien.svg);
+    background-size: cover;
+    position: absolute;
+    top: 168.9px;
+    left: 166.6px;
+}
+
+.taiwan .hualien:hover {
+    width: 66.3px;
+    height: 115.5px;
+    background-image: url(../img/icon/Hualien_f.svg);
+    background-size: cover;
+    position: absolute;
+    top: 168.9px;
+    left: 166.6px;
+}
+
+.taiwan .taitung {
+    width: 67.3px;
+    height: 117.1px;
+    background-image: url(../img/icon/Taitung.svg);
+    background-size: cover;
+    position: absolute;
+    top: 250.9px;
+    left: 146px;
+}
+
+.taiwan .taitung:hover {
+    width: 67.3px;
+    height: 117.1px;
+    background-image: url(../img/icon/Taitung_f.svg);
+    background-size: cover;
+    position: absolute;
+    top: 250.9px;
+    left: 146px;
+}
+
+.toneinfo .tonebg {
+    width: 328px;
+    height: 70px;
+    margin-top: 366px;
+    text-align: center;
+}
+
+.tonebg .taigi {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+}
+
+.tonebg .english {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/*==================== buzzword ====================*/
+.videopic {
+    width: 100%;
+    height: 30%;
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    margin: 0;
+    background-image: url(../img/videopic.jpg);
+    background-size: 100%;
+}
+
+
+.video {
+    width: 100%;
+    margin-top: 0;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+    margin: 0;
+    transform: translateY(-50%);
+}
+
+.videofull {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #000;
+    z-index: 10;
+
+}
+
+.video:fullscreen {
+    max-width: none;
+    width: 100%;
+    background-color: #000;
+}
+
+.video:-webkit-full-screen {
+    max-width: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+.closevideo {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/icon/tabs-close-short.svg);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.playvideo {
+    width: 46px;
+    height: 46px;
+    background-image: url(../img/icon/tabs-play-short.svg);
+    position: absolute;
+    top: 72px;
+    left: 157px;
+}
+
+.bzwtitle {
+    width: 234px;
+    height: 51px;
+    margin: 24px 0 0 94px;
+}
+
+.bzwtitle .bzwtaigi {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.bzwtaigi .bzweg {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#speak {
+    width: 328;
+    height: 465px;
+    overflow: scroll;
+    margin-top: 16px;
+    padding: 0 16px;
+    flex-direction: column;
+    border-radius: 32px;
+}
+
+#speak::-webkit-scrollbar {
+    display: none;
+}
+
+.speak1 {
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    border-radius: 30px 30px 5px 30px;
+    color: #fff;
+    text-align: left;
+    float: right;
+    background-color: #4fb4a2;
+}
+
+.speakright {
+    flex-direction: column;
+    justify-content: right;
+    float: right;
+}
+
+.speakleft .speak2 {
+    margin-bottom: 16px;
+    padding: 16px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    border-radius: 30px 30px 30px 5px;
+    color: #fff;
+    background-color: #f27e20;
+}
+
+.speaktaigi {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.speakeg {
+    font-size: 14px;
+}

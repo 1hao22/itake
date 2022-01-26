@@ -1,0 +1,279 @@
+* {
+    font-family: 'Segoe UI';
+}
+
+body {
+    width: 360px;
+    height: 738px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar01 {
+    width: 360px;
+    height: 48px;
+    padding-top: 7px;
+    line-height: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* home css */
+/* home css */
+
+.bgimg01{
+    background-image: url('../img/forest.png');
+    background-size: cover;
+width: 360px;
+height: 738px;
+}
+
+
+.homebg01 {
+  width: 328px;
+  height: 555px;
+  margin: 114px 16px 16px 16px;
+  object-fit: contain;
+  background-image: url('../img/homebg.svg');
+  position: relative;
+}
+
+
+.buzzwords{
+  width: 296px;
+  height: 145px;
+  background-image: url('../img/buzz.svg');
+  background-repeat: no-repeat;
+  margin: 16px 16px 20px 16px;
+  position: absolute;
+  top:142px;
+}
+
+/*  activities icon  */
+.activities{
+    width: 56px;
+    height: 56px;
+    background-image: url('../img/activities.svg');
+    background-repeat: no-repeat;
+   position: absolute;
+   top:323px; 
+   left: 27px;
+}
+.t01 {
+  width: 56px;
+  height: 19px;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+   top:389px; 
+   left: 27px;
+   margin: 0;
+}
+
+/*  Tk point icon   */
+.tkpoint{
+    width: 56px;
+    height: 56px;
+    background-image: url('../img/tkpoint.svg');
+    background-repeat: no-repeat;
+   position: absolute;
+   top:323px; 
+   left:136px;
+}
+.t02 {
+  width: 51px;
+  height: 19px;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+   top:389px; 
+   left: 139px;
+   margin: 0;
+}
+
+/*  profile icon   */
+.profile{
+    width: 56px;
+    height: 56px;
+    background-image: url('../img/profile.svg');
+    background-repeat: no-repeat;
+   position: absolute;
+   top:323px; 
+   left:245px;
+}
+.t03 {
+  width: 40px;
+  height: 19px;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+   top:389px; 
+   left: 253px;
+   margin: 0;
+}
+
+/*  translate icon   */
+.translate{
+    width: 56px;
+    height: 56px;
+    background-image: url('../img/translate.svg');
+    background-repeat: no-repeat;
+   position: absolute;
+   top:450px; 
+   left: 27px;
+}
+.t04 {
+  width: 56px;
+  height: 19px;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+   top:516px; 
+   left: 27px;
+   margin: 0;
+}
+
+/*  recognition icon  */
+.recognition{
+    width: 78px;
+    height: 78px;
+    background-image: url('../img/camera.svg');
+    background-repeat: no-repeat;
+   position: absolute;
+   top:428px; 
+   left: 125px;
+}
+.t05 {
+  width: 75px;
+  height: 19px;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+   top:516px; 
+   left: 127px;
+   margin: 0;
+}
+
+/*  cards icon  */
+.cards{
+    width: 78px;
+    height: 78px;
+    background-image: url('../img/card.svg');
+    background-repeat: no-repeat;
+   position: absolute;
+   top:450px; 
+   left: 245px;
+}
+
+.t06 {
+  width: 35px;
+  height: 19px;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+   top:516px; 
+   left: 256px;
+   margin: 0;
+}
+
+/* translate css */
+/* translate css */
+.bgimg02{
+    background-image: url('../img/Translatebg.png');
+    width: 360px;
+    height: 738px;
+}
+
+.navbar02 {
+    width: 360px;
+    height: 48px;
+    padding-top: 7px;
+    line-height: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+.homebg02 {
+  width: 328px;
+  height: 555px;
+  margin: 114px 16px 16px 16px;
+  object-fit: contain;
+  background-image: url('../img/combined-shape1.svg');
+  position: relative;
+}
+
+.back{
+    width: 38px;
+    height: 54px;
+    background-image: url('../img/ic-back.svg');
+    position: absolute;
+   top:10px; 
+   left: 16px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 24px 0px 24px 94px;
+
+}
+
+.micbtn{
+    width: 78px;
+    height: 78px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('../img/ic-mic.svg');
+    position: absolute;
+    top: 462px;
+    left: 125px;
+    outline: none;
+}
+
+#demo01, #demo03, #demo05{
+    font-size: 20px;
+    font-weight: normal;
+    position: absolute;
+    left: 32px;
+    top: 102px;
+    margin: 0px;
+}
+
+#demo02, #demo04, #demo06{
+    font-size: 20px;
+    font-weight: normal;
+    position: absolute;
+    left: 32px;
+    top: 268px;
+    margin: 0px;
+    padding-top: 16px;
+}
+
+.line{
+    position: absolute;
+    left: 16px;
+    top: 268px;
+}
+
+.eggsoundbtn .sound{
+    width: 46px;
+    height: 46px;
+    background-image: url('../img/ic-sound.svg');
+    position: absolute;
+    top: 283px;
+    left: 250px;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buzzwords</title>
+    <link rel="stylesheet" href="./css/style02.css">
+</head>
+
+<body>
+    <nav class="navbar">Buzzwords</nav>
+    <a href="./index.html">
+        <div class="back"></div>
+    </a>
+
+    <div class="whitebg">
+        <div class="bzwtitle">
+            <div class="bzwtaigi">sī leh Hello ?</div>
+            <div class="bzweg">Excuse me ?</div>
+        </div>
+        <div class="container" id="speak">
+            <div class="speakright">
+                <div class="speak1" id="speak1" onclick="myFunction()">
+                    <div class="speaktaigi">lí ná ē tī tsia ?</div>
+                    <div class="speakeg">Why are you here ?</div>
+                </div>
+                <br />
+                <div class="speak1" id="speak2" onclick="myFunction()">
+                    <div class="speaktaigi">hué-tshia koh tsap hun-tsing tioh beh kuè ah neh</div>
+                    <div class="speakeg">The train will -pass in 10 minutes.</div>
+                </div>
+            </div>
+
+            <div class="speakleft">
+                <div class="speak2" id="speak3" onclick="myFunction()">
+                    <div class="speaktaigi">sió-tsiá</div>
+                    <div class="speakeg">Miss.</div>
+                </div>
+                <br />
+                <div class="speak2" id="speak4" onclick="myFunction()">
+                    <div class="speaktaigi">sī leh Hello ?</div>
+                    <div class="speakeg">Excuse me ?</div>
+                </div>
+                <br />
+                <div class="speak2"id="speak5" onclick="myFunction()">
+                    <div class="speaktaigi">lán si bîn-á-tsài tsiah beh khì sńg neh</div>
+                    <div class="speakeg">We are going to play tomorrow.</div>
+                </div>
+            </div>
+
+            <div class="speakright">
+                <div class="speak1" id="speak6" onclick="myFunction()">
+                    <div class="speaktaigi">tioh neh</div>
+                    <div class="speakeg">Yeah.</div>
+                </div>
+                <br />
+                <div class="speak1" id="speak7" onclick="myFunction()">
+                    <div class="speaktaigi">si bîn-á-tsài</div>
+                    <div class="speakeg">Is tomorrow.</div>
+                </div>
+                <br />
+            </div>
+        </div>
+    </div>
+    <div class="blackbg"></div>
+    <div class="videopic"></div>
+    <div class="videofull" id="videofull" style="visibility:hidden">
+        <video class="video" id="video">
+            <source src="media/silehthello.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="playvideo" id="playvideo" style="visibility: visible"></div>
+    <div class="closevideo" id="closevideo" onclick="stopVideo()" style="visibility:hidden"></div>
+
+
+
+    <audio id="hellovoice1"><source src="media/hellovoice1.mp3" type="audio/mp3"></audio>
+    <audio id="hellovoice2"><source src="media/hellovoice2.mp3" type="audio/mp3"></audio>
+    <audio id="hellovoice3"><source src="media/hellovoice3.mp3" type="audio/mp3"></audio>
+    <audio id="hellovoice4"><source src="media/hellovoice4.mp3" type="audio/mp3"></audio>
+    <audio id="hellovoice5"><source src="media/hellovoice5.mp3" type="audio/mp3"></audio>
+    <audio id="hellovoice6"><source src="media/hellovoice6.mp3" type="audio/mp3"></audio>
+    <audio id="hellovoice7"><source src="media/hellovoice7.mp3" type="audio/mp3"></audio>
+
+
+
+
+    <script>
+        var video = document.getElementById("video");
+        var playvideo = document.getElementById("playvideo");
+        playvideo.onclick = function () {
+            video.play();
+            document.getElementById("playvideo").style.visibility = "hidden";
+            document.getElementById("video").style.zIndex = "10";
+            document.getElementById("videofull").style.visibility = "visible";
+            document.getElementById("closevideo").style.zIndex = "15";
+            document.getElementById("closevideo").style.visibility = "visible";
+            document.getElementById("closevideo").style.zIndex = "20";
+        }
+
+        var closevideo = document.getElementById("closevideo");
+
+        function stopVideo() {
+            video.pause();
+            document.getElementById("videofull").style.visibility = "hidden";
+            document.getElementById("playvideo").style.visibility = "visible";
+            document.getElementById("closevideo").style.visibility = "hidden";
+        }
+
+    // 聲音按鈕
+
+function myFunction() {
+
+     var hellovoice1 = document.getElementById("hellovoice1");
+     var speak1 = document.getElementById("speak1");
+     speak1.onclick = function () {
+            hellovoice1.play();
+        }
+
+     var hellovoice2 = document.getElementById("hellovoice2");
+     var speak2 = document.getElementById("speak2");
+     speak2.onclick = function () {
+            hellovoice2.play();
+        }
+
+     var hellovoice3 = document.getElementById("hellovoice3");
+     var speak3 = document.getElementById("speak3");
+     speak3.onclick = function () {
+            hellovoice3.play();
+        }
+
+     var hellovoice4 = document.getElementById("hellovoice4");
+     var speak4 = document.getElementById("speak4");
+     speak4.onclick = function () {
+            hellovoice4.play();
+        }
+
+     var hellovoice5 = document.getElementById("hellovoice5");
+     var speak5 = document.getElementById("speak5");
+     speak5.onclick = function () {
+            hellovoice5.play();
+        }
+
+     var hellovoice6 = document.getElementById("hellovoice6");
+     var speak6 = document.getElementById("speak6");
+     speak6.onclick = function () {
+            hellovoice6.play();
+        }
+
+     var hellovoice7 = document.getElementById("hellovoice7");
+     var speak7 = document.getElementById("speak7");
+     speak7.onclick = function () {
+            hellovoice7.play();
+        }
+
+
+}
+
+
+
+
+    </script>
+
+</body>
+
+</html>

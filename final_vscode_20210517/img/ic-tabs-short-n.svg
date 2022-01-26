@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46" viewBox="0 0 46 46">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-activities2_1);
+      }
+
+      .cls-2, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke: #4fb4a2;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #4fb4a2;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-activities2_1">
+      <rect width="46" height="46"/>
+    </clipPath>
+  </defs>
+  <g id="activities2_1" data-name="activities2 – 1" class="cls-1">
+    <rect class="cls-6" width="46" height="46"/>
+    <g id="ic_tabs_short_n" data-name="ic/tabs/short_n">
+      <g id="Rectangle" class="cls-2">
+        <rect class="cls-5" width="46" height="46" rx="19"/>
+        <rect class="cls-3" x="1" y="1" width="44" height="44" rx="18"/>
+      </g>
+      <g id="ic_sm_save" data-name="ic/sm/save" transform="translate(6 6)">
+        <rect id="ic_sm_fire_background" data-name="ic/sm/fire background" class="cls-3" width="34" height="34"/>
+        <g id="hot" transform="translate(6.156 2.818)">
+          <path id="Path" class="cls-4" d="M16.311,0c-.707,9.574,5.368,11.184,5.368,18.584,0,5.368-4.214,9.779-10.889,9.779S0,23.451,0,17.429C0,12.392,2.469,7.918,7.265,4.393c-.206,1.369.465,6.111,1.512,7.158C9.744,4.411,14.978.018,16.311,0Z" transform="translate(0 0)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

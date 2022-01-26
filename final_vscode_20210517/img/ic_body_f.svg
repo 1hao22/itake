@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78" height="78" viewBox="0 0 78 78">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-ic_body_f);
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #cecdcd;
+        stroke-miterlimit: 10;
+        stroke-width: 0.2px;
+      }
+
+      .cls-3 {
+        fill: #f27e20;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-ic_body_f">
+      <rect width="78" height="78"/>
+    </clipPath>
+  </defs>
+  <g id="ic_body_f" class="cls-1">
+    <g id="ic_tabs_big" data-name="ic/tabs/big">
+      <g id="ic-38">
+        <g id="Layer_1" transform="translate(14 15)">
+          <ellipse id="Oval" class="cls-2" cx="23.077" cy="23.176" rx="23.077" ry="23.176" transform="translate(0.923 0.111)"/>
+        </g>
+        <g id="Layer_2">
+          <rect id="Rectangle" class="cls-3" width="78" height="78" rx="32"/>
+        </g>
+      </g>
+      <g id="ic_micro" data-name="ic/micro" transform="translate(10 10)">
+        <rect id="ic_sm_dynamic_background" data-name="ic/sm/dynamic background" class="cls-4" width="58" height="58"/>
+        <g id="body" transform="translate(5.882 6.521)">
+          <path id="Shape" class="cls-5" d="M42.639,44.855h-.107a3.658,3.658,0,0,1-3.617-3.419c-.046-.775-1.278-6.928-4.93-9.8v8.639a3.4,3.4,0,0,1-3.4,3.358H17.057a3.4,3.4,0,0,1-3.4-3.358V24.6A17.731,17.731,0,0,1,.055,12.666a3.542,3.542,0,0,1,2.9-4.121,3.383,3.383,0,0,1,.612-.059C5.191,8.486,6.04,9.9,6.939,11.4a21.114,21.114,0,0,0,15.477,8.5l2.014.169a24.466,24.466,0,0,1,15.04,7.864,30.784,30.784,0,0,1,6.7,13.291,2.53,2.53,0,0,1-.509,2.214A3.95,3.95,0,0,1,42.639,44.855ZM23.711,16.848a8.546,8.546,0,0,1-8.545-8.426A8.426,8.426,0,0,1,23.512,0h.079a8.426,8.426,0,0,1,6.1,14.238,8.372,8.372,0,0,1-5.855,2.609Z" transform="translate(0 0)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

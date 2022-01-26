@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="54px" viewBox="0 0 38 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic/back</title>
+    <defs>
+        <linearGradient x1="60.0318489%" y1="-20.4770859%" x2="60.0318489%" y2="128.306586%" id="linearGradient-1">
+            <stop stop-color="#F9EF81" offset="0%"></stop>
+            <stop stop-color="#94CC95" offset="20.7284213%"></stop>
+            <stop stop-color="#4FB4A2" offset="46.7206105%"></stop>
+            <stop stop-color="#4D9FAF" offset="67.6219643%"></stop>
+            <stop stop-color="#4980C1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="-page1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cards0" transform="translate(-32.000000, -176.000000)">
+            <g id="Group" transform="translate(16.000000, 166.000000)">
+                <g transform="translate(16.000000, 10.000000)" id="ic/back">
+                    <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="38" height="54" rx="16.1382114"></rect>
+                    <path d="M22.333062,36.9749951 L13.0236998,27.2850915 C12.9924459,27.1079414 12.9917561,26.8937046 13.0236998,26.7150972 L22.333062,17.0251936 C22.4049129,16.9926205 22.6073602,16.990599 22.8806716,17.0251936 L23.9758907,18.1651822 C24.0070888,18.462882 24.0085766,18.6776053 23.9758907,18.7351766 L16.3093571,26.7150972 C16.1993859,26.8915822 16.1972004,27.1070394 16.3093571,27.2850915 L23.9758907,35.2650121 C24.006391,35.3210163 24.0096408,35.5353541 23.9758907,35.8350065 L22.8806716,36.9749951 C22.6099122,37.0076371 22.4056028,37.0090256 22.333062,36.9749951 Z" id="back" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

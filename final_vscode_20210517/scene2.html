@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <link rel="stylesheet" href="./css/style04.css">
+    <title>Scene Recognition</title>
+</head>
+<body>
+<!-- 底圖 -->
+<div class="scenescan2"> 
+       <!-- navbar -->
+         <a href="./scene.html">
+           <nav class="navbar_white">
+             <div class="aiback"></div>
+             <div class="title"id="label-container">Scene Recognition</div>
+           </nav>
+         </a>
+            
+        <!-- text -->
+         <div class="text3" id="library">
+           <h5>tôo-su-kuán</h5>
+           <p>Library</p>
+         </div>
+    
+        <!-- 例句icon -->
+        <a href="./scene3.html"><div class="example"></div></a>
+        
+</div>
+
+<!-- 音檔 -->
+     <audio id="aivoice3">
+        <source src="media/library.mp3" type="audio/mp3">
+    </audio>
+    
+<!-- 聲音js -->
+<script>
+        var aivoice3 = document. getElementById("aivoice3") ;
+        var library = document. getElementById("library") ;
+        library.onclick = function(){
+            aivoice3.play();
+        }
+</script>
+
+
+</body>
+</html>

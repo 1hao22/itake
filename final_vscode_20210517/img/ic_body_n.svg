@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-ic_body_n);
+      }
+
+      .cls-2 {
+        fill: #4fb4a2;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-ic_body_n">
+      <rect width="56" height="56"/>
+    </clipPath>
+  </defs>
+  <g id="ic_body_n" class="cls-1">
+    <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-2" width="56" height="56" rx="23"/>
+    <g id="ic_sm_dynamic" data-name="ic/sm/dynamic" transform="translate(7 7)">
+      <rect id="ic_sm_dynamic_background" data-name="ic/sm/dynamic background" class="cls-3" width="42" height="42"/>
+      <g id="body" transform="translate(4.26 4.722)">
+        <path id="Shape" class="cls-4" d="M30.877,32.481H30.8a2.649,2.649,0,0,1-2.619-2.476c-.034-.561-.925-5.017-3.57-7.1v6.256A2.464,2.464,0,0,1,22.146,31.6H12.352a2.464,2.464,0,0,1-2.464-2.431V17.815A12.84,12.84,0,0,1,.04,9.172a2.565,2.565,0,0,1,2.1-2.984,2.45,2.45,0,0,1,.443-.043c1.176,0,1.791,1.024,2.442,2.109A15.289,15.289,0,0,0,16.232,14.41l1.458.122a17.717,17.717,0,0,1,10.891,5.694,22.292,22.292,0,0,1,4.848,9.625,1.832,1.832,0,0,1-.369,1.6A2.86,2.86,0,0,1,30.877,32.481ZM17.17,12.2a6.189,6.189,0,0,1-6.188-6.1A6.1,6.1,0,0,1,17.026,0h.057A6.1,6.1,0,0,1,21.5,10.31,6.062,6.062,0,0,1,17.26,12.2Z" transform="translate(0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

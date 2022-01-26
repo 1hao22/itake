@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="./css/style02.css">
+</head>
+
+<body>
+    <nav class="navbar">Cards</nav>
+    <a href="./cards_all.html">
+        <div class="back"></div>
+    </a>
+    <div class="whitebg">
+        <div class="cdinfo">
+            <div class="bigimg7"></div>
+            <div class="cardtaigi">lóo-bah-pn̄g</div>
+            <div class="cardeg">Braised pork on rice</div>
+            <div class="redheart"></div>
+            <div class="tone14"></div>
+            <div class="tonetabs">
+                <div class="sound" id="porkricesound"></div>
+                <a href="./card_all_porkRice.html">
+                    <div class="mic"></div>
+                </a>
+                <div class="taiwan_d"></div>
+            </div>
+        </div>
+    </div>
+    <div class="blackbg"></div>
+    <div class="picbg2" id="cardsbg2"></div>
+
+
+    <audio id="mySong14">
+        <source src="media/braisedPorkRice.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        var mySong14 = document.getElementById("mySong14");
+        var porkricesound = document.getElementById("porkricesound");
+        porkricesound.onclick = function () {
+            mySong14.play();
+        }
+    </script>
+
+
+</body>
+
+</html>

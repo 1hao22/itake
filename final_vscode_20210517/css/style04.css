@@ -1,0 +1,903 @@
+* {
+    font-family: 'Segoe UI';
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 360px;
+    height: 738px;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+
+/* 相機頁面 */
+.aiscan {
+    width: 360px;
+    height: 738px;
+    position: relative;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/scan_ai.png);
+}
+
+.aiscan2 {
+    width: 360px;
+    height: 738px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0;
+    background-image: url(../img/scan_ai2.png);
+}
+
+.bodyscan {
+    width: 360px;
+    height: 738px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0;
+    background-image: url(../img/scan_body.png);
+}
+
+.bodyscan2 {
+    width: 360px;
+    height: 738px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0;
+    background-image: url(../img/scan_body2.png);
+}
+
+.scenescan {
+    width: 360px;
+    height: 738px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0;
+    background-image: url(../img/scan_scenes.png);
+}
+
+.scenescan2 {
+    width: 360px;
+    height: 738px;
+    background-image: url('../img/scan_scenes2.png');
+}
+
+.scenescan3 {
+    width: 360px;
+    height: 738px;
+    background-image: url('../img/scan_scenes2.png');
+     position: fixed;
+}
+
+.sentence {
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    right: 65px;
+    top: 24px;
+}
+
+/* 例句icon */
+.example {
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    left: 297px;
+    bottom: 180px;
+    background-image: url(../img/ic_example.svg);
+    z-index: 100;
+
+}
+
+/* 場景例句 */
+.group {
+    width: 328px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 102px;
+}
+
+/* 例句1 */
+.example1 {
+    height: 70px;
+    top: 102px;
+}
+
+.example1 .title1 {
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 16px;
+    padding-bottom: 6px;
+}
+
+.example1 .small1 {
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 16px;
+}
+
+.example1 .baseline {
+    width: 360px;
+    height: 1px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    background-image: url(../img/ic_baseline.png);
+    background-repeat: no-repeat;
+    margin-top: 18px;
+    margin-left: 16px;
+}
+
+
+/* 例句2 */
+.example2 {
+    height: 70px;
+    padding-top: 20px;
+}
+
+.example2 .title2 {
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 16px;
+    padding-bottom: 6px;
+}
+
+.example2 .small2 {
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 16px;
+}
+
+.example2 .baseline2 {
+    width: 360px;
+    height: 1px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    background-image: url(../img/ic_baseline.png);
+    background-repeat: no-repeat;
+    margin-top: 18px;
+    margin-left: 16px;
+}
+
+/* 例句3 */
+.example3 {
+    height: 70px;
+    padding-top: 20px;
+}
+
+.example3 .title3 {
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 16px;
+    padding-bottom: 6px;
+}
+
+.example3 .small3 {
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 16px;
+}
+
+.example3 .baseline3 {
+    width: 360px;
+    height: 1px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    background-image: url(../img/ic_baseline.png);
+    background-repeat: no-repeat;
+    margin-top: 18px;
+    margin-left: 16px;
+}
+
+/* 例句4 */
+.example4 {
+    height: 70px;
+    padding-top: 20px;
+}
+
+.example4 .title4 {
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 16px;
+    padding-bottom: 6px;
+}
+
+.example4 .small4 {
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 16px;
+}
+
+.example4 .baseline4 {
+    width: 360px;
+    height: 1px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    background-image: url(../img/ic_baseline.png);
+    background-repeat: no-repeat;
+    margin-top: 18px;
+    margin-left: 16px;
+}
+
+/* 場景2 */
+.close {
+    background-image: url(../img/ic_close.png);
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 54px;
+    position: absolute;
+    top: 10px;
+    left: 16px;
+}
+
+.text {
+    background-color: rgb(255, 255, 255);
+    border-radius: 45px;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    width: 328px;
+    height: 128px;
+    z-index: 100;
+}
+
+.text h5 {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    position: absolute;
+    left: 99px;
+    top: -18px;
+}
+
+.text p {
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-size: 20px;
+    position: absolute;
+    left: 141px;
+    top: 50px;
+}
+
+
+.text2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 45px;
+    position: relative;
+    top: 594px;
+    left: 16px;
+    bottom: 16px;
+    width: 328px;
+    height: 128px;
+    z-index: 100;
+}
+
+.text2 h5 {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    position: absolute;
+    left: 90px;
+    top: 29px;
+}
+
+.text2 p {
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-size: 20px;
+    position: absolute;
+    left: 127px;
+    top: 72px;
+}
+
+.text3 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 45px;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    width: 328px;
+    height: 128px;
+    z-index: 100;
+}
+
+.text3 h5 {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    position: absolute;
+    left: 83px;
+    top: -18px;
+}
+
+.text3 p {
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-size: 20px;
+    position: absolute;
+    left: 134px;
+    top: 50px;
+}
+
+/* ai辨識 */
+.title {
+    font-family: 'Segoe UI';
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 6px;
+    width: 359px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    z-index: 20;
+    padding-top: 7px;
+}
+
+.titleonly{
+    font-family: 'Segoe UI';
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 6px;
+    width: 359px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    z-index: 20;
+    padding-top: 5px;
+}
+
+
+.navbar_white {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.aiback {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 6px;
+    background-image: url(../img/ic_back.png);
+}
+
+.navbar_white .aiback {
+    position: relative;
+    left: 16px;
+    bottom: 2px;
+}
+
+.aiback a {
+    display: block;
+    text-decoration: none;
+}
+
+.ic_body,
+.ic_scenes {
+    width: 56px;
+    height: 56px;
+    background-repeat: no-repeat;
+
+}
+
+.ic_body2 {
+    width: 78px;
+    height: 78px;
+    background-image: url(../img/ic_body_f.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 644px;
+    left: 32px;
+    z-index: 100;
+}
+
+.ic_aicube {
+    width: 78px;
+    height: 78px;
+    background-image: url(../img/ic_aicube_f.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 644px;
+    left: 141px;
+    z-index: 100;
+}
+
+.ic_body {
+    background-image: url(../img/ic_body_n.svg);
+    position: absolute;
+    top: 666px;
+    left: 43px;
+    z-index: 100;
+}
+
+.ic_aicube2 {
+    background-image: url(../img/ic_aicube_n.svg);
+    width: 56px;
+    height: 56px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 666px;
+    left: 152px;
+    z-index: 100;
+
+}
+
+.ic_scenes {
+    background-image: url(../img/ic_scenes_n.svg);
+    position: absolute;
+    top: 666px;
+    right: 43px;
+    z-index: 100;
+}
+
+.ic_scenes2 {
+    width: 78px;
+    height: 78px;
+    background-image: url(../img/ic_scenes_f.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 644px;
+    right: 32px;
+    z-index: 100;
+}
+
+/* 台客檔案 */
+
+/* nav */
+.navbar {
+    width: 75px;
+    height: 32px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 25.8px;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    top: 7px;
+    left: 143px;
+    line-height: 32px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+/* back */
+.profile a {
+    background-image: url(../img/back.svg);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 88px;
+    left: 16px;
+    z-index: 50;
+    text-decoration: none;
+}
+
+
+/* 白色底圖 */
+.whitebg {
+    width: 328px;
+    height: 556px;
+    top: 166px;
+    left: 16px;
+    background-image: url(../img/whitebg.svg);
+    position: relative;
+}
+
+/* 台客檔案返回鍵 */
+.profileback {
+    width: 38px;
+    height: 54px;
+    background-image: url(../img/back.svg);
+    background-image: url(../img/back.svg);
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    z-index: 100;
+    text-decoration: none;
+}
+
+/* 能力條icon */
+.bar {
+    width: 46px;
+    height: 148px;
+    position: relative;
+    top: 10px;
+    left: 16px;
+    background-image: url(../img/bar_profile.png);
+    background-repeat: no-repeat;
+    z-index: 200;
+}
+
+/* 背景圖 */
+.bglantern {
+    width: 360px;
+    height: 738px;
+    padding-top: 0;
+    margin: 0;
+    background-image: url(../img/bg_profile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* mask */
+.mask {
+    width: 360px;
+    height: 738px;
+    padding-top: 0;
+    background-image: url(../img/mask.png);
+    background-size: cover;
+    position: absolute;
+    z-index: 2000;
+    -webkit-mask: url("../img/mask.png") no-repeat center center;
+    mask: url("../img/mask.png") no-repeat center center;
+}
+
+/* 個人資料 */
+.name {
+    height: 27px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-top: 24px;
+}
+
+.birthplace {
+    height: 19px;
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-size: 14px;
+    padding-left: 100px;
+    padding-top: 4px;
+}
+
+.pic {
+    width: 46px;
+    height: 46px;
+    background-image: url(../img/ic_pic.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 18px;
+    top: 18px;
+}
+
+.chart_container {
+    width: 233px;
+    position: absolute;
+    top: 0px;
+}
+
+.graph,
+.graph02,
+.graph03 {
+    width: 233px;
+    height: 10px;
+    background: #E6E6E6;
+    border-radius: 20px;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
+
+.graph04,
+.graph05,
+.graph06 {
+    width: 233px;
+    height: 10px;
+    background: #E6E6E6;
+    border-radius: 20px;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
+
+/* 能力條 */
+.graph {
+    margin: 64px 16px;
+}
+
+.graph02 {
+    margin: 114px 16px;
+
+}
+
+.graph03 {
+    margin: 164px 16px;
+}
+
+.graph04 {
+    margin: 64px 16px;
+}
+
+.graph05 {
+    margin: 114px 16px;
+
+}
+
+.graph06 {
+    margin: 164px 16px;
+}
+
+.chart_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.chart_container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.graph span,
+.graph02 span,
+.graph03 span {
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    display: block;
+    padding: 0 10px;
+    height: 10px;
+    line-height: 16px;
+    text-align: right;
+    position: relative;
+    background: #F27E20;
+    border-radius: 16px;
+    box-sizing: border-box;
+    z-index: 150;
+}
+
+.graph04 span,
+.graph05 span,
+.graph06 span {
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    display: block;
+    padding: 0 10px;
+    height: 10px;
+    line-height: 16px;
+    text-align: right;
+    position: relative;
+    background: #F27E20;
+    border-radius: 16px;
+    box-sizing: border-box;
+    z-index: 150;
+}
+
+.graph span {
+    width: 55%;
+    animation: stack 2s 1;
+}
+
+.graph02 span {
+    width: 70%;
+    animation: stack2 2s 1;
+}
+
+.graph03 span {
+    width: 30%;
+    animation: stack3 2s 1;
+}
+
+.graph04 span {
+    width: 55%;
+}
+
+.graph05 span {
+    width: 70%;
+}
+
+.graph06 span {
+    width: 30%;
+}
+
+/* 能力條動畫 */
+@keyframes stack {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 55%;
+    }
+}
+
+@keyframes stack2 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes stack3 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
+
+/* 獎章 */
+.collect {
+    position: absolute;
+    top: 450px;
+    width: 290px;
+    height: 304px;
+    left: 33px;
+    top: 401px;
+    z-index: 100;
+}
+
+/* 獎章外框 */
+.collect .container {
+    width: 294px;
+    height: 304px;
+    border: 3px solid #e4e4e4;
+    border-radius: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    overflow: scroll;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* 獎章 */
+.badge01,
+.badge02,
+.badge03,
+.badge04,
+.badge05,
+.badge06,
+.badge07,
+.badge08,
+.badge09,
+.badge10,
+.badge11,
+.badge12,
+.badge13,
+.badge14,
+.badge15,
+.badge16,
+.badge17,
+.badge18,
+.badge19,
+.badge20 {
+    margin: 6px;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.badge01 {
+    background-image: url(../img/ic_badge01_n.svg);
+}
+
+.badge02 {
+    background-image: url(../img/ic_badge02_n.svg);
+}
+
+.badge03 {
+    background-image: url(../img/ic_badge03_n.svg);
+}
+
+.badge04 { 
+    background-image: url(../img/ic_badge05_n.svg);
+}
+
+.badge05 {
+    background-image: url(../img/ic_badge08_n.svg);
+}
+
+.badge06 {
+    background-image: url(../img/ic_badge09_n.svg);
+}
+
+.badge07 {
+    background-image: url(../img/ic_badge06_n.svg);
+}
+
+.badge08 {
+    background-image: url(../img/ic_badge10_n.svg);
+}
+
+.badge09 {
+    background-image: url(../img/ic_badge11_n.svg);
+}
+
+.badge10 {
+    background-image: url(../img/ic_badge12_n.svg);
+}
+
+.badge11 {
+    background-image: url(../img/ic_badge13_n.svg);
+}
+
+.badge12 {
+    background-image: url(../img/ic_badge14_n.svg);
+}
+
+.badge13 {
+    background-image: url(../img/ic_badge07_n.svg);
+}
+
+.badge14 {
+    background-image: url(../img/ic_badge04_d.svg);
+}
+
+.badge15 {
+    background-image: url(../img/ic_badge04_d.svg);
+
+}
+
+.badge16 {
+    background-image: url(../img/ic_badge04_d.svg);
+}
+
+.badge17 {
+    background-image: url(../img/ic_badge04_d.svg);
+}
+
+.badge18 {
+    background-image: url(../img/ic_badge04_d.svg);
+}
+
+.badge19 {
+    background-image: url(../img/ic_badge04_d.svg);
+}
+
+.badge20 {
+    background-image: url(../img/ic_badge04_d.svg);
+}
+
+.collect .container::-webkit-scrollbar {
+    display: none;
+}

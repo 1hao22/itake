@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <link rel="stylesheet" href="./css/style04.css">
+    <title>Scene Recognition</title>
+</head>
+<body>
+ <!-- 底圖 -->
+<div class="scenescan3">
+
+    <!-- navbar -->
+    <nav class="navbar_white">
+          <div class="title"id="label-container">Scene Recognition</div>
+    </nav>
+
+     <!-- 白色底圖 -->
+    <div class="whitebg">
+
+    <!-- 關閉icon -->
+    <a href="./scene2.html"><div class="close"></div></a>
+
+    <!-- title -->
+    <div class="sentence">Example sentence</div>
+    <!-- 例句群組 -->
+    <div class="group">
+           <!-- 例句1 -->
+           <div class="example1" id="example1">
+              <!-- 例句羅馬字 -->
+              <div class="title1">
+                guá beh tsioh tsheh
+              </div>
+              <!-- 例句英文字 -->
+              <div class="small1">
+                I want to borrow a book.
+              </div>
+              <!-- 漸層底線 -->
+              <div class="baseline"></div>
+           </div>
+
+           <!-- 例句2 -->
+           <div class="example2" id="example2">
+              <!-- 例句羅馬字 -->
+              <div class="title2">
+               ē-sái tsioh kah tang-sî ?
+              </div>
+              <!-- 例句英文字 -->
+              <div class="small2">
+                How long for ?
+              </div>
+              <!-- 漸層底線 -->
+              <div class="baseline2"></div>
+           </div>
+
+           <!-- 例句3 -->
+           <div class="example3" id="example3">
+              <!-- 例句羅馬字 -->
+              <div class="title3">
+               kám ū tâi-gí ê tsheh ?
+              </div>
+              <!-- 例句英文字 -->
+              <div class="small3">
+                Are there any books in Taiwanese here ?
+              </div>
+              <!-- 漸層底線 -->
+              <div class="baseline3"></div>
+           </div>
+
+           <!-- 例句4 -->
+           <div class="example4" id="example4">
+              <!-- 例句羅馬字 -->
+              <div class="title4">
+               piān-sóo tī  tó-uī ?
+              </div>
+              <!-- 例句英文字 -->
+              <div class="small4">
+                Where is the toilet  ?
+              </div>
+              <!-- 漸層底線 -->
+              <div class="baseline4"></div>
+           </div>
+   
+    </div>
+
+    </div>  
+</div>
+
+
+ <!-- 音檔 -->
+     <audio id="aivoice4">
+        <source src="media/book.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="aivoice5">
+        <source src="media/when.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="aivoice6">
+        <source src="media/have.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="aivoice7">
+        <source src="media/where.mp3" type="audio/mp3">
+    </audio>
+
+<!-- 聲音js -->
+    <script>
+        var aivoice4 = document. getElementById("aivoice4") ;
+        var example1 = document. getElementById("example1") ;
+        example1.onclick = function(){
+            aivoice4.play();
+        }
+
+        var aivoice5 = document. getElementById("aivoice5") ;
+        var example2 = document. getElementById("example2") ;
+        example2.onclick = function(){
+            aivoice5.play();
+        }
+
+        var aivoice6 = document. getElementById("aivoice6") ;
+        var example3 = document. getElementById("example3") ;
+        example3.onclick = function(){
+            aivoice6.play();
+        }
+
+        var aivoice7 = document. getElementById("aivoice7") ;
+        var example4 = document. getElementById("example4") ;
+        example4.onclick = function(){
+            aivoice7.play();
+        }
+</script>
+</body>
+</html>

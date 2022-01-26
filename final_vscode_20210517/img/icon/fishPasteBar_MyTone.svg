@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="296px" height="170px" viewBox="0 0 296 170" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2 Copy 9</title>
+    <g id="-page1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2-Copy-9">
+            <path d="M32,0 L264,0 C281.673112,-3.24649801e-15 296,14.326888 296,32 L296,154 C296,162.836556 288.836556,170 280,170 L211.697638,170 C202.901655,170 194.493501,166.379341 188.449296,159.988965 C178.367408,149.329655 164.884309,144 148,144 C131.115692,144 117.632593,149.329655 107.550705,159.988964 C101.506501,166.379341 93.0983464,170 84.3023632,170 L16,170 C7.163444,170 1.082166e-15,162.836556 0,154 L0,32 C-2.164332e-15,14.326888 14.326888,3.24649801e-15 32,0 Z" id="Rectangle" fill="#DADADA" fill-rule="nonzero"></path>
+            <path d="M34,12 L262,12 C274.150264,12 284,21.8497355 284,34 L284,110 C284,122.150264 274.150264,132 262,132 L34,132 C21.8497355,132 12,122.150264 12,110 L12,34 C12,21.8497355 21.8497355,12 34,12 Z" id="Rectangle" fill="#FFFFFF"></path>
+            <g id="Group" transform="translate(12.000000, 31.000000)">
+                <rect id="Rectangle" fill="#D0D0D0" x="0" y="0" width="272" height="1"></rect>
+                <rect id="Rectangle-Copy-3" fill="#D0D0D0" x="0" y="32" width="272" height="1"></rect>
+                <rect id="Rectangle-Copy-5" fill="#D0D0D0" x="0" y="64" width="272" height="1"></rect>
+                <rect id="Rectangle-Copy-2" fill="#D0D0D0" x="0" y="16" width="272" height="1"></rect>
+                <rect id="Rectangle-Copy-4" fill="#D0D0D0" x="0" y="48" width="272" height="1"></rect>
+                <rect id="Rectangle-Copy-6" fill="#D0D0D0" x="0" y="80" width="272" height="1"></rect>
+                <path d="M63,47.3694584 C63,47.3694584 72.044382,34.0217415 82.1743047,35.0572823 C91.851185,36.0465105 107.474579,57.7433327 113.967638,64.0572823" id="Path" stroke="#6E6E6E" stroke-width="4" stroke-linecap="round" transform="translate(88.483819, 49.528641) scale(-1, 1) translate(-88.483819, -49.528641) "></path>
+                <path d="M150.813451,49.5286412 C150.813451,49.5286412 177.905027,50.1850371 189.749903,47 C201.494175,43.8420148 204.52691,38 209.329844,33" id="Path" stroke="#6E6E6E" stroke-width="4" stroke-linecap="round"></path>
+            </g>
+        </g>
+        <path d="M70.2438939,74.0572823 C70.2438939,74.0572823 86.0236447,73.0217415 96.1535675,74.0572823 C105.830448,75.0465105 126.209948,85.356194 132.703007,91.6701436" id="Path" stroke="#F27E20" stroke-width="4" stroke-linecap="round" transform="translate(101.473450, 82.633593) scale(-1, 1) translate(-101.473450, -82.633593) "></path>
+        <path d="M163,87.5286412 C163,87.5286412 189.905027,94.0800854 201.749903,90.8950484 C213.494175,87.7370632 216.713459,76 221.516393,71" id="Path" stroke="#F27E20" stroke-width="4" stroke-linecap="round"></path>
+    </g>
+</svg>
